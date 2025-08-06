@@ -1,0 +1,221 @@
+/* Reset some default spacing */
+/* General body styling */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #222;
+}
+
+/* Header section */
+header {
+  background-color: #a83232;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 1.1em;
+}
+
+/* Navigation menu */
+nav {
+  background-color: #4a2c2a;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fffbe6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #ffd9a0;
+}
+
+/* Hero section */
+.hero {
+  flex: 1;
+  padding: 60px 20px 40px 20px; /* top right bottom left */
+  text-align: center;
+  background-color: #ffe4c4;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #a83232;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #444;
+}
+
+/* Hero image styling */
+.hero-img {
+  max-width: 90vw;         /* Make it almost the full viewport width */
+  max-height: 60vh;        /* Limit the height so it doesn't get too tall */
+  width: auto;             /* Keep aspect ratio */
+  height: auto;
+  margin-top: 30px;        /* Space from the text above */
+  margin-bottom: 30px;     /* Space before footer */
+  border: 15px solid goldenrod;  /* Thicker border for emphasis */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  background-color: white;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;      /* Center horizontally */
+}
+/* Footer section */
+footer {
+  background-color: #a83232;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.95em;
+}
+
+.menu {
+  background-color: #fff8f0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.2em;
+  color: #a83232;
+  margin-bottom: 30px;
+}
+
+.menu-category {
+  margin-bottom: 40px;
+}
+
+.menu-category h3 {
+  font-size: 1.5em;
+  color: #4a2c2a;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a83232;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.menu-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.menu-category ul li {
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+html {
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+.menu-sidebar {
+  position: fixed;       /* sticks to the side */
+  top: 100px;            /* some space from top */
+  right: 20px;           /* stick on the right side */
+  background: #f8f8f8;
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 70vh;
+  overflow-y: auto;      /* scroll inside if too long */
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.menu-sidebar h4 {
+  margin-top: 0;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #a83232;
+  font-style: italic;
+}
+
+.menu-sidebar ul {
+  list-style: circle;
+  padding: 3;
+  margin: 3;
+}
+
+.menu-sidebar ul li {
+  margin-bottom: 8px;
+}
+
+.menu-sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95em;
+}
+
+.menu-sidebar ul li a:hover {
+  text-decoration: underline;
+  color: #a83232;
+}
+
+.contact-section {
+  background-color: #fdf6e3;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #ccc;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
